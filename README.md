@@ -1,68 +1,36 @@
-# Blog-Api-Features === h1
-## Blog-Api-Features === h2
-### Blog-Api-Features === h3
-#### Blog-Api-Features === h4
-##### Blog-Api-Features === h5
-###### Blog-Api-Features === h6
+# Blog-Api-Features
 
-# Lists
-- lists 1
-  - nested
-- lists 2
-- lists 3
+## Tech Stack
 
-# Links
-[got youtube](www.youtube)
+__server:__ Node, Express, MongoDB, Mongoose, JWT
 
-# synthax highlighting / code formatting 
-```javascript
- const add = ()=>{}
-```
+# API FEATURES
+- Authentication & Authorization
+- Post CRUD operations
+- Comment functionality
+- System blocking user if inactive for 30days
+- Admin can block a user
+- A user can block different users
+- A user who block another user cannot see his/her posts
+- Last date a post was created
+- Check if a user is active or not
+- Check last date a user was active 
+- Changing user award base on number of posts created by the user
+- A user can follow and unfollow another user
+- Get following and followers count
+- Get total profile viewers count 
+- Get posts created count
+- Get blocked counts
+- Get all users who views someone’s profile
+- Admin can unblock a blocked user
+- Update password
+- Profile photo uploaded
+- A user can close his/her account
 
-```html
-<div>
- <h1>Learn </h1>
- </div>
-```
-
-```http
-POST /api/users/register
-```
-
-# TABLE
-
-| Parameter| Type| Description|
-| :--------|:----|:-----------|
-| `auth`   | `string`| token  |
+ # ENDPOINTS
+ - [@octokatherine](https://www.github.com/octokatherine)
 
 
-# Text formatting
-
-`formatted`
-__bold__
-
-# internal linking
-
-[go to the aunthetication](#Authentication)
-
-## Authentication 
-Indeed, Jesus may even have been a Pharisee.
-
-Indeed, Jesus may even have been a Pharisee.
-
-Indeed, Jesus may even have been a Pharisee.
-
-Indeed, Jesus may even have been a Pharisee.
-
-Indeed, Jesus may even have been a Pharisee.
-
-Indeed, Jesus may even have been a Pharisee.
-
-Indeed, Jesus may even have been a Pharisee.
-
-Indeed, Jesus may even have been a Pharisee.
-
-Indeed, Jesus may even have been a Pharisee.
 
 
 

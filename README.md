@@ -28,8 +28,31 @@ __server:__ Node, Express, MongoDB, Mongoose, JWT
 - A user can close his/her account
 
  # ENDPOINTS
- - [@octokatherine](https://www.github.com/octokatherine)
+ - [API Authentication](#API-Authentication)
+      - [Register a new API client](https://www.github.com/octokatherine)
+      - [login](https://www.github.com/octokatherine)
+  
+ - [Users](https://www.github.com/octokatherine)
+      - [Get my profile](https://www.github.com/octokatherine)
+      - [Get all users](https://www.github.com/octokatherine)
+      - [View a user profile Count](https://www.github.com/octokatherine)
 
+   # API Authentication
+
+   Some endpoints may require authentication for exaple. To create/delete/update post. you need to register your API client and obtain an access token.
+
+   The endpoints that require authentication except a bearer token sent inthe `Authorization header`.
+
+__Example__:
+
+`Authorization: Bearer YOUR TOKEN`
+
+## Register a new API client
+```http
+POST /api/v1/users/register
+```
+
+The request body needs to be in JSON format.
 
 
 
